@@ -1,0 +1,15 @@
+invalid_booking_cases = [
+    ({}, 400, "1. Пустое тело"),
+    ({"lastname": "Doe", "totalprice": 100, "depositpaid": True, "bookingdates": {"checkin": "2026-05-01", "checkout": "2026-05-05"}}, 400, "2. Отсутствует firstname"),
+    ({"firstname": "John", "totalprice": 100, "depositpaid": True, "bookingdates": {"checkin": "2026-05-01", "checkout": "2026-05-05"}}, 500, "3. Отсутствует lastname"),
+    ({"firstname": "John", "lastname": "Doe", "depositpaid": True, "bookingdates": {"checkin": "2026-05-01", "checkout": "2026-05-05"}}, 500, "4. Отсутствует totalprice"),
+    ({"firstname": "John", "lastname": "Doe", "totalprice": 100, "bookingdates": {"checkin": "2026-05-01", "checkout": "2026-05-05"}}, 500, "5. Отсутствует depositpaid"),
+    ({"firstname": "John", "lastname": "Doe", "totalprice": 100, "depositpaid": True}, 500, "6. Отсутствует bookingdates"),
+    ({"firstname": "John", "lastname": "Doe", "totalprice": "abc", "depositpaid": True, "bookingdates": {"checkin": "2026-05-01", "checkout": "2026-05-05"}}, 500, "7. Неверный тип totalprice (строка)"),
+    ({"firstname": "John", "lastname": "Doe", "totalprice": 100, "depositpaid": "yes", "bookingdates": {"checkin": "2026-05-01", "checkout": "2026-05-05"}}, 400, "8. Неверный тип depositpaid (строка)"),
+    ({"firstname": "John", "lastname": "Doe", "totalprice": 100, "depositpaid": True, "bookingdates": {"checkin": "01-05-2026", "checkout": "2026-05-05"}}, 400, "9. Неверный формат даты checkin"),
+    ({"firstname": "John", "lastname": "Doe", "totalprice": 100, "depositpaid": True, "bookingdates": {"checkin": "2026-05-01", "checkout": "05-05-2026"}}, 400, "10. Неверный формат даты checkout"),
+    ({"firstname": "John", "lastname": "Doe", "totalprice": 100, "depositpaid": True, "bookingdates": {"checkin": "2026-05-10", "checkout": "2026-05-05"}}, 400, "11. Дата заезда позже даты выезда"),
+    ({"firstname": "John", "lastname": "Doe", "totalprice": -50, "depositpaid": True, "bookingdates": {"checkin": "2026-05-01", "checkout": "2026-05-05"}}, 200, "12. Отрицательная цена"),
+    ({"firstname": "", "lastname": "", "totalprice": 100, "depositpaid": True, "bookingdates": {"checkin": "2026-05-01", "checkout": "2026-05-05"}}, 200, "13. Пустые firstname и lastname"),
+]

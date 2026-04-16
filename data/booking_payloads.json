@@ -1,0 +1,34 @@
+{
+  "valid_booking": {
+    "firstname": "BogdanQA",
+    "lastname": "Noob",
+    "totalprice": 228,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-04-01",
+      "checkout": "2026-04-20"
+    },
+    "additionalneeds": "Breakfast"
+  },
+    "changed_valid_booking": {
+    "firstname": "BogdanQA-changed",
+    "lastname": "Noob-changed",
+    "totalprice": 8053,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-04-01",
+      "checkout": "2026-04-20"
+    },
+    "additionalneeds": "Breakfast"
+  },
+  "invalid_booking": {
+    "firstname": "",
+    "lastname": "",
+    "totalprice": -50,
+    "depositpaid": "not_boolean"
+  },
+  "partial_update": {
+    "firstname": "Bogdan",
+    "lastname": "Bogdanovich"
+  }
+}
