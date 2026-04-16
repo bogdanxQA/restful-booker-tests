@@ -1,5 +1,11 @@
 # API тестирование Restful-Booker
 
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
+![pytest](https://img.shields.io/badge/pytest-8.2.0-blue?logo=pytest)
+![Allure Report](https://img.shields.io/badge/Allure_Report-2.29.0-blue?logo=allure)
+![Requests](https://img.shields.io/badge/requests-2.31.0-blue?logo=python)
+![Pydantic](https://img.shields.io/badge/pydantic-2.5.0-blue?logo=pydantic)
+
 Проект автоматизации тестирования API сервиса [Restful-Booker](https://restful-booker.herokuapp.com/).  
 Набор позитивных и негативных тестов, написанных на Python с использованием **pytest**, **requests**, **Pydantic** и **Allure**.
 
