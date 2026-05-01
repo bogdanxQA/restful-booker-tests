@@ -81,7 +81,7 @@ restful-booker-tests/
 ├── .github/workflows/      # CI/CD конфигурация
 ├── requirements.txt
 └── README.md
-
+```
 
 ## Запуск тестов
 
