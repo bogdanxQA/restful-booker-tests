@@ -1,0 +1,8 @@
+INFO     api_tests:client.py:28 Запрос: POST https://restful-booker.herokuapp.com/booking/
+INFO     api_tests:client.py:35 Ответ: 200 для POST https://restful-booker.herokuapp.com/booking/
+INFO     api_tests:client.py:28 Запрос: DELETE https://restful-booker.herokuapp.com/booking/2693
+INFO     api_tests:client.py:35 Ответ: 201 для DELETE https://restful-booker.herokuapp.com/booking/2693
+INFO     api_tests:client.py:28 Запрос: PUT https://restful-booker.herokuapp.com/booking/2693
+INFO     api_tests:client.py:35 Ответ: 405 для PUT https://restful-booker.herokuapp.com/booking/2693
+INFO     api_tests:checks.py:11 Проверка статуса: ожидается 405
+INFO     api_tests:checks.py:13 Статус 405 OK

@@ -1,0 +1,1 @@
+{"bookingid":2665,"booking":{"firstname":"BogdanQA","lastname":"Noob","totalprice":228,"depositpaid":true,"bookingdates":{"checkin":"2026-04-01","checkout":"2026-04-20"},"additionalneeds":"Breakfast"}}

@@ -1,0 +1,3 @@
+Успешно! Статус код: 200 соответствует ожидаемому 200
+Фактический результат: firstname='BogdanQA' lastname='Noob' totalprice=228 depositpaid=True bookingdates=BookingDates(checkin='2026-04-01', checkout='2026-04-20') additionalneeds='Breakfast'
+Совпадает с Ожидаемым: firstname='BogdanQA' lastname='Noob' totalprice=228 depositpaid=True bookingdates=BookingDates(checkin='2026-04-01', checkout='2026-04-20') additionalneeds='Breakfast'

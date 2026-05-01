@@ -1,0 +1,4 @@
+INFO     api_tests:client.py:28 Запрос: GET https://restful-booker.herokuapp.com/booking/
+INFO     api_tests:client.py:35 Ответ: 200 для GET https://restful-booker.herokuapp.com/booking/
+INFO     api_tests:checks.py:11 Проверка статуса: ожидается 200
+INFO     api_tests:checks.py:13 Статус 200 OK

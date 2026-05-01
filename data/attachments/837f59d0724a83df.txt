@@ -1,0 +1,1 @@
+{"bookingid":2710,"booking":{"firstname":"","lastname":"","totalprice":100,"depositpaid":true,"bookingdates":{"checkin":"2026-05-01","checkout":"2026-05-05"}}}

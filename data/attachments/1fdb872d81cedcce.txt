@@ -1,0 +1,6 @@
+2026-05-01 14:16:20 - api_tests - INFO - Запрос: POST https://restful-booker.herokuapp.com/booking/
+2026-05-01 14:16:20 - api_tests - INFO - Ответ: 200 для POST https://restful-booker.herokuapp.com/booking/
+2026-05-01 14:16:20 - api_tests - INFO - Запрос: DELETE https://restful-booker.herokuapp.com/booking/2682
+2026-05-01 14:16:20 - api_tests - INFO - Ответ: 403 для DELETE https://restful-booker.herokuapp.com/booking/2682
+2026-05-01 14:16:20 - api_tests - INFO - Проверка статуса: ожидается 403
+2026-05-01 14:16:20 - api_tests - INFO - Статус 403 OK

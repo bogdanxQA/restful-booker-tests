@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"f15fc6e4387d82682abb28fc17b7d19e","name":"Негативные тесты API бронирований","statistic":{"failed":1,"broken":0,"skipped":0,"passed":2,"unknown":0,"total":3}},{"uid":"2d8302a39f1f196aaf570319018dcd6f","name":"Управление бронированиями","statistic":{"failed":0,"broken":0,"skipped":0,"passed":6,"unknown":0,"total":6}}]}

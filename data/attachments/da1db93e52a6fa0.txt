@@ -1,0 +1,8 @@
+INFO     api_tests:client.py:28 Запрос: POST https://restful-booker.herokuapp.com/booking/
+INFO     api_tests:client.py:35 Ответ: 200 для POST https://restful-booker.herokuapp.com/booking/
+INFO     api_tests:client.py:28 Запрос: PATCH https://restful-booker.herokuapp.com/booking/2663
+INFO     api_tests:client.py:35 Ответ: 200 для PATCH https://restful-booker.herokuapp.com/booking/2663
+INFO     api_tests:checks.py:11 Проверка статуса: ожидается 200
+INFO     api_tests:checks.py:13 Статус 200 OK
+INFO     api_tests:checks.py:19 Проверка частичного обновления (PATCH)
+INFO     api_tests:checks.py:26 Частичное обновление успешно

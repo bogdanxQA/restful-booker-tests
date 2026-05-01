@@ -1,0 +1,4 @@
+INFO     api_tests:client.py:28 Запрос: POST https://restful-booker.herokuapp.com/booking/
+INFO     api_tests:client.py:35 Ответ: 500 для POST https://restful-booker.herokuapp.com/booking/
+INFO     api_tests:checks.py:11 Проверка статуса: ожидается 500
+INFO     api_tests:checks.py:13 Статус 500 OK

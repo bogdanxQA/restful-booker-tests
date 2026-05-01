@@ -1,0 +1,6 @@
+2026-05-01 14:16:19 - api_tests - INFO - Запрос: POST https://restful-booker.herokuapp.com/booking/
+2026-05-01 14:16:19 - api_tests - INFO - Ответ: 200 для POST https://restful-booker.herokuapp.com/booking/
+2026-05-01 14:16:19 - api_tests - INFO - Запрос: GET https://restful-booker.herokuapp.com/booking/2666
+2026-05-01 14:16:19 - api_tests - INFO - Ответ: 200 для GET https://restful-booker.herokuapp.com/booking/2666
+2026-05-01 14:16:19 - api_tests - INFO - Проверка статуса: ожидается 200
+2026-05-01 14:16:19 - api_tests - INFO - Статус 200 OK

@@ -1,0 +1,8 @@
+2026-05-01 14:16:19 - api_tests - INFO - Запрос: POST https://restful-booker.herokuapp.com/booking/
+2026-05-01 14:16:19 - api_tests - INFO - Ответ: 200 для POST https://restful-booker.herokuapp.com/booking/
+2026-05-01 14:16:19 - api_tests - INFO - Запрос: PATCH https://restful-booker.herokuapp.com/booking/2663
+2026-05-01 14:16:19 - api_tests - INFO - Ответ: 200 для PATCH https://restful-booker.herokuapp.com/booking/2663
+2026-05-01 14:16:19 - api_tests - INFO - Проверка статуса: ожидается 200
+2026-05-01 14:16:19 - api_tests - INFO - Статус 200 OK
+2026-05-01 14:16:19 - api_tests - INFO - Проверка частичного обновления (PATCH)
+2026-05-01 14:16:19 - api_tests - INFO - Частичное обновление успешно
