@@ -1,15 +1,16 @@
 name: Run API tests and publish Allure report
 
 on:
-  push:
-    branches: [ main, master ]
-  pull_request:
-    branches: [ main, master ]
-  workflow_dispatch:    # Возможность запустить вручную из интерфейса GitHub
+  workflow_dispatch:    
 
 jobs:
   test:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write    
+      pages: write
+      actions: read
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
@@ -26,7 +27,7 @@ jobs:
 
     - name: Run tests and generate Allure results
       run: pytest -v --alluredir=allure-results
-      continue-on-error: true
+      continue-on-error: true   
 
     - name: Setup Java (required for Allure)
       uses: actions/setup-java@v4
